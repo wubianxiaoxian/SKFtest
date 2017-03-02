@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5BEC781E680B9700492976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BEC771E680B9700492976 /* main.m */; };
+		1D5BEC7B1E680B9700492976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BEC7A1E680B9700492976 /* AppDelegate.m */; };
+		1D5BEC7E1E680B9700492976 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BEC7D1E680B9700492976 /* ViewController.m */; };
+		1D5BEC811E680B9700492976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BEC7F1E680B9700492976 /* Main.storyboard */; };
+		1D5BEC831E680B9700492976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BEC821E680B9700492976 /* Assets.xcassets */; };
+		1D5BEC861E680B9700492976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BEC841E680B9700492976 /* LaunchScreen.storyboard */; };
+		1D5BEC911E680B9700492976 /* SKFtestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BEC901E680B9700492976 /* SKFtestDemoTests.m */; };
+		1D5BEC9C1E680B9700492976 /* SKFtestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BEC9B1E680B9700492976 /* SKFtestDemoUITests.m */; };
+		1D5BECAC1E680C0000492976 /* SKFtestway.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BECAB1E680C0000492976 /* SKFtestway.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5BEC8D1E680B9700492976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5BEC6B1E680B9700492976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5BEC721E680B9700492976;
+			remoteInfo = SKFtestDemo;
+		};
+		1D5BEC981E680B9700492976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5BEC6B1E680B9700492976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5BEC721E680B9700492976;
+			remoteInfo = SKFtestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D5BEC731E680B9700492976 /* SKFtestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKFtestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5BEC771E680B9700492976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D5BEC791E680B9700492976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D5BEC7A1E680B9700492976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D5BEC7C1E680B9700492976 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D5BEC7D1E680B9700492976 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D5BEC801E680B9700492976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D5BEC821E680B9700492976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D5BEC851E680B9700492976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D5BEC871E680B9700492976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5BEC8C1E680B9700492976 /* SKFtestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFtestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5BEC901E680B9700492976 /* SKFtestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFtestDemoTests.m; sourceTree = "<group>"; };
+		1D5BEC921E680B9700492976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5BEC971E680B9700492976 /* SKFtestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFtestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5BEC9B1E680B9700492976 /* SKFtestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFtestDemoUITests.m; sourceTree = "<group>"; };
+		1D5BEC9D1E680B9700492976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5BECAA1E680C0000492976 /* SKFtestway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFtestway.h; sourceTree = "<group>"; };
+		1D5BECAB1E680C0000492976 /* SKFtestway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFtestway.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5BEC701E680B9700492976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5BEC891E680B9700492976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5BEC941E680B9700492976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5BEC6A1E680B9700492976 = {
+			isa = PBXGroup;
+			children = (
+				1D5BEC751E680B9700492976 /* SKFtestDemo */,
+				1D5BEC8F1E680B9700492976 /* SKFtestDemoTests */,
+				1D5BEC9A1E680B9700492976 /* SKFtestDemoUITests */,
+				1D5BEC741E680B9700492976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D5BEC741E680B9700492976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BEC731E680B9700492976 /* SKFtestDemo.app */,
+				1D5BEC8C1E680B9700492976 /* SKFtestDemoTests.xctest */,
+				1D5BEC971E680B9700492976 /* SKFtestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5BEC751E680B9700492976 /* SKFtestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BECA91E680BDF00492976 /* Classes */,
+				1D5BEC791E680B9700492976 /* AppDelegate.h */,
+				1D5BEC7A1E680B9700492976 /* AppDelegate.m */,
+				1D5BEC7C1E680B9700492976 /* ViewController.h */,
+				1D5BEC7D1E680B9700492976 /* ViewController.m */,
+				1D5BEC7F1E680B9700492976 /* Main.storyboard */,
+				1D5BEC821E680B9700492976 /* Assets.xcassets */,
+				1D5BEC841E680B9700492976 /* LaunchScreen.storyboard */,
+				1D5BEC871E680B9700492976 /* Info.plist */,
+				1D5BEC761E680B9700492976 /* Supporting Files */,
+			);
+			path = SKFtestDemo;
+			sourceTree = "<group>";
+		};
+		1D5BEC761E680B9700492976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BEC771E680B9700492976 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5BEC8F1E680B9700492976 /* SKFtestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BEC901E680B9700492976 /* SKFtestDemoTests.m */,
+				1D5BEC921E680B9700492976 /* Info.plist */,
+			);
+			path = SKFtestDemoTests;
+			sourceTree = "<group>";
+		};
+		1D5BEC9A1E680B9700492976 /* SKFtestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BEC9B1E680B9700492976 /* SKFtestDemoUITests.m */,
+				1D5BEC9D1E680B9700492976 /* Info.plist */,
+			);
+			path = SKFtestDemoUITests;
+			sourceTree = "<group>";
+		};
+		1D5BECA91E680BDF00492976 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BECAA1E680C0000492976 /* SKFtestway.h */,
+				1D5BECAB1E680C0000492976 /* SKFtestway.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5BEC721E680B9700492976 /* SKFtestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5BECA01E680B9700492976 /* Build configuration list for PBXNativeTarget "SKFtestDemo" */;
+			buildPhases = (
+				1D5BEC6F1E680B9700492976 /* Sources */,
+				1D5BEC701E680B9700492976 /* Frameworks */,
+				1D5BEC711E680B9700492976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFtestDemo;
+			productName = SKFtestDemo;
+			productReference = 1D5BEC731E680B9700492976 /* SKFtestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D5BEC8B1E680B9700492976 /* SKFtestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5BECA31E680B9700492976 /* Build configuration list for PBXNativeTarget "SKFtestDemoTests" */;
+			buildPhases = (
+				1D5BEC881E680B9700492976 /* Sources */,
+				1D5BEC891E680B9700492976 /* Frameworks */,
+				1D5BEC8A1E680B9700492976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5BEC8E1E680B9700492976 /* PBXTargetDependency */,
+			);
+			name = SKFtestDemoTests;
+			productName = SKFtestDemoTests;
+			productReference = 1D5BEC8C1E680B9700492976 /* SKFtestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D5BEC961E680B9700492976 /* SKFtestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5BECA61E680B9700492976 /* Build configuration list for PBXNativeTarget "SKFtestDemoUITests" */;
+			buildPhases = (
+				1D5BEC931E680B9700492976 /* Sources */,
+				1D5BEC941E680B9700492976 /* Frameworks */,
+				1D5BEC951E680B9700492976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5BEC991E680B9700492976 /* PBXTargetDependency */,
+			);
+			name = SKFtestDemoUITests;
+			productName = SKFtestDemoUITests;
+			productReference = 1D5BEC971E680B9700492976 /* SKFtestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5BEC6B1E680B9700492976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "孙凯峰";
+				TargetAttributes = {
+					1D5BEC721E680B9700492976 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1D5BEC8B1E680B9700492976 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D5BEC721E680B9700492976;
+					};
+					1D5BEC961E680B9700492976 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D5BEC721E680B9700492976;
+					};
+				};
+			};
+			buildConfigurationList = 1D5BEC6E1E680B9700492976 /* Build configuration list for PBXProject "SKFtestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D5BEC6A1E680B9700492976;
+			productRefGroup = 1D5BEC741E680B9700492976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5BEC721E680B9700492976 /* SKFtestDemo */,
+				1D5BEC8B1E680B9700492976 /* SKFtestDemoTests */,
+				1D5BEC961E680B9700492976 /* SKFtestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5BEC711E680B9700492976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BEC861E680B9700492976 /* LaunchScreen.storyboard in Resources */,
+				1D5BEC831E680B9700492976 /* Assets.xcassets in Resources */,
+				1D5BEC811E680B9700492976 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5BEC8A1E680B9700492976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5BEC951E680B9700492976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5BEC6F1E680B9700492976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BECAC1E680C0000492976 /* SKFtestway.m in Sources */,
+				1D5BEC7E1E680B9700492976 /* ViewController.m in Sources */,
+				1D5BEC7B1E680B9700492976 /* AppDelegate.m in Sources */,
+				1D5BEC781E680B9700492976 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5BEC881E680B9700492976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BEC911E680B9700492976 /* SKFtestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5BEC931E680B9700492976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BEC9C1E680B9700492976 /* SKFtestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5BEC8E1E680B9700492976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5BEC721E680B9700492976 /* SKFtestDemo */;
+			targetProxy = 1D5BEC8D1E680B9700492976 /* PBXContainerItemProxy */;
+		};
+		1D5BEC991E680B9700492976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5BEC721E680B9700492976 /* SKFtestDemo */;
+			targetProxy = 1D5BEC981E680B9700492976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5BEC7F1E680B9700492976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5BEC801E680B9700492976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D5BEC841E680B9700492976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5BEC851E680B9700492976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D5BEC9E1E680B9700492976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D5BEC9F1E680B9700492976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D5BECA11E680B9700492976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKFtestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFtestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D5BECA21E680B9700492976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKFtestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFtestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D5BECA41E680B9700492976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKFtestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFtestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFtestDemo.app/SKFtestDemo";
+			};
+			name = Debug;
+		};
+		1D5BECA51E680B9700492976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKFtestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFtestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFtestDemo.app/SKFtestDemo";
+			};
+			name = Release;
+		};
+		1D5BECA71E680B9700492976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKFtestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFtestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKFtestDemo;
+			};
+			name = Debug;
+		};
+		1D5BECA81E680B9700492976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKFtestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.SKFtestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKFtestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5BEC6E1E680B9700492976 /* Build configuration list for PBXProject "SKFtestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5BEC9E1E680B9700492976 /* Debug */,
+				1D5BEC9F1E680B9700492976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5BECA01E680B9700492976 /* Build configuration list for PBXNativeTarget "SKFtestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5BECA11E680B9700492976 /* Debug */,
+				1D5BECA21E680B9700492976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D5BECA31E680B9700492976 /* Build configuration list for PBXNativeTarget "SKFtestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5BECA41E680B9700492976 /* Debug */,
+				1D5BECA51E680B9700492976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D5BECA61E680B9700492976 /* Build configuration list for PBXNativeTarget "SKFtestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5BECA71E680B9700492976 /* Debug */,
+				1D5BECA81E680B9700492976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5BEC6B1E680B9700492976 /* Project object */;
+}
